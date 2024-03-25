@@ -293,7 +293,7 @@ Private Sub cmdApplyCustomPosition_Click()
 End Sub
 
 Private Sub cmdApplyCustomSize_Click()
-    If Int(txtCustomH.Text) < 150 And Int(txtCustomH.Text) < 150 Then
+    If Int(txtCustomW.Text) < 150 And Int(txtCustomH.Text) < 150 Then
         MsgBox "Too small"
         Exit Sub
     End If
